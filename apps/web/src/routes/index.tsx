@@ -27,6 +27,9 @@ function HomeComponent() {
 			<div className="grid gap-6">
 				<section className="rounded-lg border p-4">
 					<h2 className="mb-2 font-medium">API Status</h2>
+					<button onClick={()=>{
+						fetch('/api',{body:JSON.stringify({name:'bc'}),method:'post'})
+					}}>abc</button>
 				</section>
 			</div>
 		</div>
