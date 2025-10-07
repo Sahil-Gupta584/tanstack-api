@@ -47,3 +47,4 @@ my-better-t-app/
 - `npm run build`: Build all applications
 - `npm run dev:web`: Start only the web application
 - `npm run check-types`: Check TypeScript types across all apps
+# tanstack-api
